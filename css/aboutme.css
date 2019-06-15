@@ -1,0 +1,187 @@
+
+body {
+    margin: 0 auto;
+    font-size: 62.5%;
+    font-family: "Muli", "Helvetica Neue", "Arial", "sans-serif";
+    font-weight: 300;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .masthead {
+    background: url("https://cdn.pixabay.com/photo/2017/01/20/14/58/pier-14-1995036_1280.jpg") no-repeat fixed center;
+    background-size: cover;
+    padding: 1em 2em;
+    border-top: 8px solid #EDEDED;
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+    font-size: 4em;
+  }
+  
+  .masthead-intro {
+    margin: 2em 0 0 0;
+    font-weight: bolder;
+  }
+  
+  .masthead-heading {
+    font-size: 10rem;
+    padding: 0;
+    margin: 0 0 1em;
+  }
+  
+  section {
+    max-width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+  }
+  
+  
+  .gradient {
+    padding: 10em;
+    background-color: #000000;;
+    background-image: linear-gradient(#000000, #262626);
+  }
+  
+  h2 {
+    font-size: 4em;
+  }
+  
+  h3 {
+    font-style: italic;
+    font-size: 2.5em;
+  }
+  
+  section p {
+    font-size: 2em;
+    line-height: 1.3em;
+  }
+  
+  .space-maker {
+    margin-bottom: 3em;
+  }
+  
+  .content-footer {
+    background: #000000;
+    padding: 10em;
+    border-bottom: 8px solid #EDEDED;
+  }
+  
+  .content-footer > p {
+    line-height: 1.3em;
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  .social {
+    text-align: center;
+    padding: 0;
+  }
+  
+  .social > li {
+    display: inline-block;
+    line-height: 1.3em;
+    margin-right: 2em;
+    font-size: 2em;
+  }
+  
+  a {
+    color: #EDEDED;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #BB0000;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  
+  .social li:last-child {
+    margin-right: 0;
+  }
+  
+  
+  @media only screen and (max-width: 500px) {
+    .masthead {
+      padding: 1em;
+    }
+    
+    .masthead-intro {
+      font-size: 1.5rem;
+    }
+    
+    .masthead-heading {
+      font-size: 4rem;
+    }
+    
+    .gradient {
+      padding: 5em;
+    }
+    
+    h2 {
+      font-size: 2rem;
+    }
+    
+    h3 {
+      font-size: 1.5rem;
+    }
+    
+    section p {
+      font-size: 1rem;
+    }
+    
+    .content-footer {
+      padding: 4em;
+    }
+    
+    .social > li {
+    display: block;
+    margin-right: 0;
+    }
+    
+    a {
+      line-height: 3em;
+    }
+    
+    .content-footer p a {
+      line-height: 0;
+    } 
+  }
+  
+  @media only screen and (max-width: 344px) {
+    .content-footer p a {
+      line-height: 3em;
+    }
+  }  
+
+
+
+
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 80%;
+    margin-bottom: 0;
+  }
+  
+  #page-top a {
+    display: block;
+    background: #666;
+    color: #fff;
+    width: 100px;
+    padding: 25px 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  
+  #page-top a:hover {
+    background: #999;
+    text-decoration: none;
+  }  
